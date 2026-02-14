@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/alfredgpennyworth/vanish-link/releases/download/v0.1.0/vanish-win-x64.exe",
-            "hash": "PLACEHOLDER"
+            "hash": "2c262ceaf5b148984ba6881f169908f53ebfcaefe12be75249c395cbb52bd805"
         }
     },
     "bin": [["vanish-win-x64.exe", "vanish"]],
