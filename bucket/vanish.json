@@ -1,0 +1,23 @@
+{
+    "version": "0.1.0",
+    "description": "Zero-knowledge self-destructing links. E2E encrypted with AES-256-GCM.",
+    "homepage": "https://vanish.link",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/alfredgpennyworth/vanish-link/releases/download/v0.1.0/vanish-win-x64.exe",
+            "hash": "PLACEHOLDER"
+        }
+    },
+    "bin": [["vanish-win-x64.exe", "vanish"]],
+    "checkver": {
+        "github": "https://github.com/alfredgpennyworth/vanish-link"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/alfredgpennyworth/vanish-link/releases/download/v$version/vanish-win-x64.exe"
+            }
+        }
+    }
+}
